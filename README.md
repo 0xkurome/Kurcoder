@@ -1,5 +1,7 @@
 # Kurcoder
 
+![gif](running.gif)
+
 A lightweight encoding & decoding tool [v.0.0.1]
 
 
