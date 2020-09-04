@@ -308,6 +308,7 @@ def main():
     if cmd == 'exit' or cmd == 'quit' or cmd == 'q' :
         exit()
     elif cmd == 'menu' or cmd == 'm' :
+        banner()
         menu()
         main()
     elif cmd == 'clear' or cmd == 'c' :
