@@ -2,3 +2,5 @@ dist
 testing
 *.egg*
 *.bak
+.SRCINFO
+PKGBUILD

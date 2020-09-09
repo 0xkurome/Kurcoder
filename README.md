@@ -28,6 +28,11 @@ $ git clone https://github.com/0xkurome/Kurcoder.git
 $ cd Kurcoder/
 $ python3 kurcoder.py
 ```
+To intall `kurcoder` on Arch Linux:
+```
+$ yay -S kurcoder-git
+```
+
 ## Requirements
 You will need to intall `ipcalc` if Kurcoder will not run
 ```
