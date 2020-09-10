@@ -4,4 +4,3 @@ testing
 *.bak
 .SRCINFO
 PKGBUILD
-requirements.txt
