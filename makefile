@@ -1,5 +1,5 @@
 PREFIX ?= /usr/share/
-DOCDIR ?= $(PREFIX)/kurcoder/doc
+DOCDIR ?= $(PREFIX)/share/kurcoder/doc
 
 all:
 	@echo Run \'make install\' to install kurcoder.
