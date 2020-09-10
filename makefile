@@ -1,4 +1,4 @@
-PREFIX ?= /usr/share/
+PREFIX ?= /usr
 DOCDIR ?= $(PREFIX)/share/kurcoder/doc
 
 all:
