@@ -24,10 +24,9 @@ setuptools.setup(
         license = "MIT",
         url=REPO,
         download_url="{}/archive/v{}".format(REPO, VERSION),
-        install_requires = [
-            "ipcalc",
-        ],
-        classifiers = [
+        install_requires=[
+            'ipcalc'],
+        classifiers=[
             "Development Status :: 5 - Production/Stable",
             "Intended Audience :: End Users/Desktop",
             "Environment :: Console",
