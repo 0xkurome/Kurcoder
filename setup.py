@@ -8,6 +8,7 @@ setup.py
 
 import os
 import setuptools
+import ipcalc
 
 NAME = "kurcoder"
 VERSION = "0.0.1"
