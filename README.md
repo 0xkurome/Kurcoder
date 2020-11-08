@@ -24,7 +24,7 @@ A lightweight encoding & decoding tool [v.0.0.1]
 
 To install and use `Kurcoder`, you can build locally:
 ```
-$ git clone https://github.com/0xkurome/Kurcoder.git 
+$ git clone https://github.com/kyli0x/Kurcoder.git 
 $ cd Kurcoder/
 $ python3 kurcoder.py
 ```

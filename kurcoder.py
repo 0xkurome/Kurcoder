@@ -276,9 +276,9 @@ def banner():
     print ('')
     print (C+'  Welcome to Kurcoder v.0.0.1')
     print ('')
-    print (C+' '+C+'    Created by: 0xKurome')
-    print (P+'     GitHub: ['+C+'0xkurome'+P+']')
-    print (P+'     Insta:  ['+C+'0xkurome'+P+']')
+    print (C+' '+C+'    Created by: Kyli0x')
+    print (P+'     GitHub: ['+C+'kyli0x'+P+']')
+    print (P+'     Insta:  ['+C+'kyli0x'+P+']')
     print ('')
 
 def menu():
