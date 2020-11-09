@@ -267,6 +267,19 @@ def ip2bin():
         print(C+'> '+ (ip2bin_result))
         main()
 
+# Binary to Decimal
+def bin2dec():
+    bin2dec_text = str(input(P+' Input Binary '+C+'> '+W))
+    if bin2dec_text == 'exit' or bin2dec_text == 'q' :
+        exit()
+    elif bin2dec_text == 'menu' :
+        menu()
+        main()
+    else:
+        bin2dec_result = '.'.join(str(int(x, 2)) for x in bin2dec_text.split('.'))
+        print(C+'> '+ str(bin2dec_result))
+        main()
+
 def banner():
     try:
         os.system('cls')
@@ -299,8 +312,8 @@ def menu():
         print (C+' [13]'+P+' Decode ASCII85')
         print ('  -  ')
         print (C+' [14]'+P+' IP Subnet Calculator')
-        print (C+' [15]'+P+' Convert IP to Binary')
-        
+        print (C+' [15]'+P+' Convert Decimal(IP) to Binary')
+        print (C+' [16]'+P+' Convert Binary to Decimal(IP)')
 
 def main():
     print ('')
@@ -404,7 +417,12 @@ def main():
         except Exception:
             print(C+'\n Incorrect format, Please try again ')
             ip2bin()
-
+    elif cmd == '16' :
+        try:
+            bin2dec()
+        except Exception:
+            print(C+'\n Incorrect format, Please try again ')
+            bin2dec()
     else :
         print ('')
         print (P+" Command [ "+C+"" +cmd+ ""+P+" ] Not Found")
