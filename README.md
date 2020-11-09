@@ -17,8 +17,8 @@ A lightweight encoding & decoding tool [v.0.0.1]
 - Base85 (ASCII85) Encoder
 - Base85 (ASCII85) Decoder
 - IP Subnet (CIDR) Calculator
-- IP to Binary
-- Binary to Decimal (IP)
+- Decimal(IP) to Binary
+- Binary to Decimal(IP)
 ## Install
 `Kurcoder` is built for 3.6+, and tested on macOS/Linux & Windows
 
