@@ -13,13 +13,13 @@ NAME = "kurcoder"
 VERSION = "0.0.1"
 
 DESC = "Simple encoder & decoder tool"
-REPO = "https://github.com/0xkurome/Kurcoder"
+REPO = "https://github.com/kyli0x/Kurcoder"
 
 # main
 setuptools.setup(
         name = NAME,
         version = VERSION,
-        author = "0xkurome",
+        author = "kyli0x",
         description = DESC,
         license = "MIT",
         url=REPO,
